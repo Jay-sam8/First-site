@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    position: absolute;
+    z-index: 21;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding:  15px;
+}
+
+li a:hover {
+    color: #0769fd;
+    transition: 0.2s;
+}
+
+
+.Phone {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: black;
+    left: 91%;
+    position: absolute;
+    z-index: 11;
+}
+
+.trans_border {
+    width: 1880px;
+    height: 60px;
+    margin: auto;
+    background: rgba(163, 162, 162, 0.438);
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 90%;
+    opacity: 0.9;
+   
+}
